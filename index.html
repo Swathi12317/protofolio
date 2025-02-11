@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/24a9a0a8a1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+<nav>
+    <img sr="image/logo.png" class="logo">
+<ul id="sidemenu">
+    <li><a href="#header">Home</a></li> 
+    <li><a href="#about">About</a></li>
+    <li><a href="#Project">Projects</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+<h1>Hi, I'm <span>Geddamuri Swathi</span><br>A student studying Engineering.<br>This site highlights my projects and skills.<br>
+    and I am a passionate about web development.</h1>
+</div>
+</div>
+<div>
+</div>
+</div>
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/WhatsApp Image 2025-02-11 at 22.17.27_3fb9093c.jpg">
+            </div>
+            <div class="about-col-2">
+                    <hl class="sub-title">About Me</h1>
+                        <h6>I am a student currently pursuing (B.E-CSE)at Sathyabama University.
+                            With a keen interest in Web Development and Design. I enjoy working with HTML, CSS, and JavaScript to build responsive and interactive web applications. 
+                            Whether it’s crafting smooth user interfaces, designing intuitive layouts, or experimenting with animations, I always strive to create websites that are both visually appealing and highly functional. 
+                            As a student, I am constantly learning and improving my skills, exploring new frameworks, and keeping up with the latest trends in web development.
+                        </h6>
+                        </div>
+        <div class="tab-titles">
+            <p class="tab-links tab-active"onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links tab-active"onclick="opentab('Technologies')">Technologies</p>
+            <p class="tab-links tab-active"onclick="opentab('Education')">Education</p>
+        </div>
+            <div class="tab-contents tab-links " id="Skills">
+            <ul>
+                <li><span>HTML</span><br>Structuring web pages with semantic tags.</li>
+                <li><span>CSS</span><br>Styling the website with layouts,fonts,colors.</li>
+                <li><span>Java Script</span><br>Adding interactivity like smooth scrolling and dynamic content display.</li>
+            </ul>
+        </div>
+        <div class="tab-contents tab-links " id="Technologies">
+        <ul>
+            <li><span>Frontend</span><br> HTML,CSS,JavaScript and Frontend Frameworks</1i>
+            <li><span>Web Design</span><br> Web Fronts and Icons </1i>
+        </ul>
+        </div>
+        <div class="tab-contents tab-links " id="Education">
+            <ul>
+            <li><span>Pursuing</span><br>B.E(CSE) at Sathyabama University.</li>
+            <li><span>2023</span><br>Intermediate  at Sri Prakash from Payakoroapeta.</1i>
+            <li><span>2021</span><br>SSC at Loyola from  Payakoropeta.</li>     
+            </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+        
+<div id="Project">
+    <div class="container">
+    <h1 class="sub-title">My Project</h1>
+    <div class="Project-list">
+    <div>
+        <i class="fa-solid fa-mobile-screen-button"></i>
+
+    <h2>Solar Phone Charger</h2>
+    <p>I'm currently working  on project that aims to solve 
+    the common problem of shortage of current by using Solar Energy.</p>
+    </div>
+</div>
+</div>
+ </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="Contact-left">
+                        <h1 class="sub-title">Contact Me</h1><br>
+                        <br><p><i class="fa-solid fa-paper-plane"></i>  swathigeddamuri@gmail.com</p><br>
+
+                       <br> <p> <i class="fa-brands fa-viber"></i>   +91 7867890654</p>
+                      
+
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATBGlAkhzA5OCLbQO4OpnuEietSBZWtZABPr_LTKWVUUmk_PkSofXMg9P04Xh6XMvPwQtNRH-o88-drFosjx9JbPBH7bLwcLqZ7z8wVxDtMG9VnJcSIwXNvgplUk4_yh7kly5kOzgl_cHutHm8ezhG5TJNqn5GDClz3vDMYcGM0E_SO91m7whpqfzkOr-https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/login?"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+           
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> cpoyright @swathi.Made with  <i class="fa-solid fa-heart"></i></p>
+            </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+<script>
+     
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu()
+        {
+        sidemenu.style.right = "-200px"
+     }
+    
+</script>
+
+</body>
+</html>
+
+
